@@ -17,7 +17,7 @@ const data: ISiteMetadataResult = {
   navLinks: [
     {
       name: 'Home',
-      url: 'https://laqieer.github.io/',
+      url: 'https://laqieer.github.io/running.html',
     },
     {
       name: 'About',
