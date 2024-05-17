@@ -20,6 +20,10 @@ const data: ISiteMetadataResult = {
       url: 'https://laqieer.github.io/running.html',
     },
     {
+      name: 'Race',
+      url: 'https://laqieer.github.io/running_race/',
+    },
+    {
       name: 'Strava',
       url: 'https://www.strava.com/athletes/136949100',
     },
