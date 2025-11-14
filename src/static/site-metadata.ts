@@ -9,6 +9,11 @@ interface ISiteMetadataResult {
   }[];
 }
 
+const getBasePath = () => {
+  const baseUrl = import.meta.env.BASE_URL;
+  return baseUrl === '/' ? '' : baseUrl;
+};
+
 const data: ISiteMetadataResult = {
   siteTitle: 'Home Page',
   siteUrl: 'https://laqieer.github.io',
@@ -26,6 +31,10 @@ const data: ISiteMetadataResult = {
     {
       name: 'Strava',
       url: 'https://www.strava.com/athletes/136949100',
+    },
+    {
+      name: 'Parkrun',
+      url: 'https://paulsrunning.com/timing/results.php?user=1547',
     },
     {
       name: 'About',
